@@ -1,0 +1,21 @@
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Mon Apr 17 19:32:38 2017] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-17) on 15 April 2017 21:15:45
+os: Linux-2.6.32-504.30.3.el6.x86_64 #1 SMP Wed Jul 15 10:13:09 UTC 2015
+nodename: VM_124_180_centos
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/StudyOnline
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/StudyOnline
+your processes number limit is 7818
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
