@@ -17,7 +17,7 @@ IDE | PyCharm 2017.1 x64
  
  
  
-## 使用指南
+## 使用方法
  1、安装MySQL数据库（root密码设置123456）。
 
  2、新建数据库：<pre><code>create database studyonline;</code></pre>
