@@ -142,12 +142,12 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
-EMAIL_HOST = 'smtp.sina.com'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = 'yipwinghong@sina.com'
-EMAIL_HOST_PASSWORD = 'LKJHGFDSA'
+EMAIL_HOST = 'smtp.sina.com'            # 邮箱服务器ip
+EMAIL_PORT = 25                         # 邮箱服务器端口
+EMAIL_HOST_USER = ''                    # 邮箱地址
+EMAIL_HOST_PASSWORD = ''                # 邮箱密码
 EMAIL_USE_TLS = False
-EMAIL_FROM = 'yipwinghong@sina.com'
+EMAIL_FROM = 'yipwinghong@sina.com'         
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
