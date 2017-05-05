@@ -1,6 +1,6 @@
 # StudyOnline
  
- StudyOnline是一个基于Django开发的在线教育平台，实际运行效果见：http://www.yipwinghong.cn/
+ StudyOnline是一个基于Django开发的在线学习网站，实际运行效果见：http://www.yipwinghong.cn/
  
 
  
