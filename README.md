@@ -1,7 +1,7 @@
 # StudyOnline
 StudyOnline是一个基于Django开发的在线学习网站，实际运行效果见：http://www.yipwinghong.cn/      
 - 后台管理模块替换为Django第三方组件xadmin，添加权限（用户、分组）管理，富文本编辑，Excel表格导入功能，支持自定义插件。  
-- 支持关键词（课程、机构、讲师）全局搜索
+- 支持关键词（课程、机构、讲师）全局搜索。
  
 ## 开发环境
 环境 | 版本
